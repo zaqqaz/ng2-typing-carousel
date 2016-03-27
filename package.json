@@ -1,9 +1,7 @@
 {
   "name": "ng2-typing-carousel",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "scripts": {
-    "build": "rm -rf lib && tsc",
-    "test": "tsc && karma start",
     "prepublish": "tsc",
     "tsc": "tsc"
   },
@@ -28,7 +26,8 @@
   },
   "main": "ng2-typing-carousel.js",
   "typings": "./ng2-typing-carousel.d.ts",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "angular2": "^2.0.0-beta.12",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.35.0",
@@ -37,7 +36,6 @@
     "zone.js": "0.6.6",
     "typescript": "^1.7.5"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=0.8.0"
   }

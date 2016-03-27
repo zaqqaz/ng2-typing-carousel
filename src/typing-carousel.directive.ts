@@ -5,7 +5,7 @@ import {Directive, ElementRef, Input} from 'angular2/core';
     selector: '[typingCarousel]',
     inputs: ['typingCarousel', 'period']
 })
-export default class TypingCarouselDirective {
+export class TypingCarouselDirective {
 
     element:ElementRef;
     loopNum:number;
