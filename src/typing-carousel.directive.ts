@@ -1,10 +1,11 @@
+//noinspection TypeScriptCheckImport
 import {Directive, ElementRef, Input} from 'angular2/core';
 
 @Directive({
     selector: '[typingCarousel]',
     inputs: ['typingCarousel', 'period']
 })
-export class TypingCarouselDirective {
+export default class TypingCarouselDirective {
 
     element:ElementRef;
     loopNum:number;
@@ -50,6 +51,4 @@ export class TypingCarouselDirective {
 
         setTimeout(() => this.tick(value, toRotate, period), delta);
     }
-}
-
-export default TypingCarouselDirective;
+};

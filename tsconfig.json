@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
     "module": "commonjs",
-    "target": "ES5",
+    "target": "es5",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
-    "declaration": true
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./dist"
   },
   "files": [
-    "ng2-typing-carousel.ts"
+    "src/typing-carousel.directive.ts",
+    "node_modules/angular2/typings/browser.d.ts"
   ],
   "exclude": [
     "node_modules"
