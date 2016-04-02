@@ -1,6 +1,6 @@
 {
   "name": "ng2-typing-carousel",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "prepublish": "tsc",
     "tsc": "tsc"
@@ -24,8 +24,8 @@
   "bugs": {
     "url": "https://github.com/zaqqaz/ng2-typing-carousel/issues"
   },
-  "main": "ng2-typing-carousel.js",
-  "typings": "./ng2-typing-carousel.d.ts",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
   "dependencies": {},
   "devDependencies": {
     "angular2": "^2.0.0-beta.12",
